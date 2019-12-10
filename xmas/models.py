@@ -16,7 +16,7 @@ class GuestBook(models.Model):
     def __str__(self):
         return self.name
 
-#pick which host: Rina or Eunjung ?
+#pick which host: Rina or Eunjung
 class HostNameChoice(models.Model):
     pass
 
