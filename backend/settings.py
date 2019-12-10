@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'xmas', #register app name xmas
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
