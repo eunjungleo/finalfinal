@@ -25,9 +25,9 @@ class HostPost(models.Model):
 #    name = models.ForeignKey('HostNameChoice')
     title = models.CharField(max_length=200, null=True)
     words = models.TextField(null=True)
-    image = models.ImageField(null=True)
+    image = models.ImageField(null=True, upload_to='images')
 #    comment = models.ForeignKey(related_name='Comment')
 
     def __str__(self):
-        return hostpost.title
+        return self.title
     
